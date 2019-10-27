@@ -1,0 +1,28 @@
+{
+  "name": "nyu-menstrual-hygiene",
+  "version": "1.0.0",
+  "description": "Menstrual Hygiene Products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a98zhang/NYU-Menstrual-Hygiene.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a98zhang/NYU-Menstrual-Hygiene/issues"
+  },
+  "homepage": "https://github.com/a98zhang/NYU-Menstrual-Hygiene#readme",
+  "dependencies": {
+    "@google/maps": "^1.0.2",
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "mongoose": "^5.7.7"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}
