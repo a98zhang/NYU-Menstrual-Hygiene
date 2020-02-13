@@ -67,7 +67,6 @@ An Example User:
 ```
 
 
-## [Link to Commented First Draft Schema](https://github.com/nyu-csci-ua-0480-001-fall-2019/a98zhang-final-project/blob/master/src/db.js) 
 
 ## Wireframes
 
@@ -105,20 +104,6 @@ An Example User:
 10. as a user, I can view my past records of menstruations
 11. as an admin, I can view all the reports
 12. as an admin, I can address/revoke all the reports
-
-## Research Topics
-
-* (2 points) form validation
-  To ensure the security and stability of the web application, it is essential to perform client side form validation using custom JavaScript or JavaScript library. Therefore, in this project, I will attempt to learn Javascript form validation library express-validator.
-* (2 points) D3.js
-  Data visualization has become an indispensable step for a complete data life cycle for its power to convey information effectively. D3.js is arguably the most influential tool for creating interactive data visualization on the web. Therefore, in this project, I will attempt to learn D3.js.
-* (4 point) Google Maps API
-  The usage of map will be essential to realize the intended functionality of this web application. Google Maps provides one of the most mature and popular API for developers. Therefore, I will use Google Maps API in this project.
-
-8 points total out of 8 required points
-
-
-## [Link to Initial Main Project File](https://github.com/nyu-csci-ua-0480-001-fall-2019/a98zhang-final-project/blob/master/src/app.js)
 
 
 ## Annotations / References Used
