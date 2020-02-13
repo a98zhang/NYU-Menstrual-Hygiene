@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/main.css" />
+        <title>Menstrual Hygiene @ NYU</title>
+    </head>
+
+    <body>
+        <header>
+            <nav id="top-nav">
+                <a href="/user"><img id='user' src="/img/user.png"></a>  
+            </nav>
+            <h1>Menstrual Hygiene @ NYU</h1>
+            <nav id="menu-nav">
+                <a href="/">Find</a>                |                          
+                <a href="/add">Report</a>               |                   
+                <a href="/explore">Explore</a>   
+            </nav>
+        </header>
+
+        <div id="modal-login" class="modal">
+            <div class="modal-content">
+                <h3>Log In To See Your Menstrual Data</h3>
+                <input type="text" class="username" placeholder="Username" value="">
+                <input type="password" class="password" placeholder="Password" value="">
+                <input type="button" id="loginBtn" value="Log In">     
+                <h4>or</h4>
+                <input type="button" class='user' value="Sign Up">      
+            </div>
+        </div>
+        <div id="modal-signup" class="modal">
+            <div class="modal-content">
+                <h3>Sign Up for Better Menstrual Health</h3>
+                <input type="text" class="username" placeholder="Username" value="">
+                <input type="password" class="password" placeholder="Password" value="">
+                <input type="submit" id="signupBtn" value="Sign Up">   
+            </div>
+        </div>
+        <div id="calendar"></div>
+        <script src="./javascripts/user.js"></script>
+    </body>
+</html>
+

@@ -1,28 +1,35 @@
 {
-  "name": "nyu-menstrual-hygiene",
+  "name": "a98zhang-final-project",
   "version": "1.0.0",
-  "description": "Menstrual Hygiene Products",
+  "description": "The content below is an example project proposal / requirements document. Replace the text below the lines marked \"__TODO__\" with details specific to your project. Remove the \"TODO\" lines.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a98zhang/NYU-Menstrual-Hygiene.git"
+    "url": "git+https://github.com/nyu-csci-ua-0480-001-fall-2019/a98zhang-final-project.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/a98zhang/NYU-Menstrual-Hygiene/issues"
+    "url": "https://github.com/nyu-csci-ua-0480-001-fall-2019/a98zhang-final-project/issues"
   },
-  "homepage": "https://github.com/a98zhang/NYU-Menstrual-Hygiene#readme",
-  "dependencies": {
-    "@google/maps": "^1.0.2",
-    "express": "^4.17.1",
-    "hbs": "^4.0.6",
-    "mongoose": "^5.7.7"
-  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-001-fall-2019/a98zhang-final-project#readme",
   "devDependencies": {
     "eslint": "^6.6.0"
+  },
+  "dependencies": {
+    "@vue/cli": "^4.0.5",
+    "connect-flash": "^0.1.1",
+    "d3": "^5.14.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.3.0",
+    "hbs": "^4.0.6",
+    "mongoose": "^5.7.7",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "vue": "^2.6.10"
   }
 }

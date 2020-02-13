@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/main.css" />
+        <title>Menstrual Hygiene @ NYU</title>
+    </head>
+
+    <body>
+        <header>
+            <nav id="top-nav">
+                <a href="/user"><img id='user' src="/img/user.png"></a>  
+            </nav>
+            <h1>Menstrual Hygiene @ NYU</h1>
+            <nav id="menu-nav">
+                <a href="/">Find</a>                |                          
+                <a href="/add">Report</a>               |                   
+                <a href="/explore">Explore</a>   
+            </nav>
+        </header>
+
+        <div class='filter'>
+            campus: <select name='campQ'>
+            <option disabled selected value> -- select an option -- </option>
+            <option value="All">Both Campuses</option>
+            <option value="Washington Square Park">Washington Square Park Campus</option>
+            <option value="Brooklyn">Brooklyn Campus</option>
+            </select>
+            type: <select name='typeQ'>
+            <option disabled selected value> -- select an option -- </option>
+            <option value='immediate'>Take Only What You Need for Now</option>
+            <option value='future'>Take Supplies for Later</option>
+            </select>
+            location: <input type='text' name='loctQ'>    
+            <input type="button" class="filter" value="search">
+        </div>
+        <div id="map"></div>
+        <script src="./javascripts/index.js"></script>
+    </body>
+</html>

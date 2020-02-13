@@ -3,26 +3,21 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="/css/main.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" >
-        <link rel="icon" type="image/png" href="/img/icon.png" />
-        <title>Find Menstrual Hygiene Products at NYU</title>
-    
+        <title>Menstrual Hygiene @ NYU</title>
     </head>
 
     <body>
         <header>
-            
-            <h1>Find Menstrual Hygiene Products at NYU</h1>
+            <nav id="top-nav">
+                <a href="/user"><img id='user' src="/img/user.png"></a>       
+            </nav>
+            <h1>Menstrual Hygiene @ NYU</h1>
+            <nav id="menu-nav">
+                <a href="/">Find</a>                |                          
+                <a href="/add">Report</a>               |                   
+                <a href="/explore">Explore</a>   
+            </nav>
         </header>
-        <ul>
-            <li><img src="/img/icon.png"></li>
-            <li><a href="/">Find the Products</a></li>
-            <li><a href="/add">Report the Status</a></li>
-            <li><a href="/list">View the Reports</a></li>
-            <li><a href="/location"List the Locations></a></li>
-        </ul>
-        <div id="header-fix-space"></div>
-        <div id="side-body">{{{ body }}}</div>
-
+        {{{body}}}
     </body>
 </html>

@@ -1,0 +1,22 @@
+<h2>My Reports</h2>
+{{#each reports}}
+<div class='report'>
+    <ul>
+        <li><b>location:    </b> {{location.name}}</li>
+        <li><b>item:    </b>{{item}}</li>
+        <li><b>message:    </b>{{message}}</li>
+        <li><b>time:    </b>{{time}}</li>
+    <ul>
+</div>
+<div id='reportBtns'>
+    <form id='delete' method='GET' action="/me">
+        <input type='hidden' name='id' value={{id}}>
+        <input type="submit" name="delete" value="delete">
+        <!-- <button name = "delete" onclick="delrpt({{id}})">delete</button> -->
+    </form>
+    <form id='modify' method='GET' action="/me">
+        <input type='hidden' name='id' value={{id}}>
+        <input type="submit" name="modify" value="modify">
+    </form>
+</div>
+{{/each}}

@@ -1,0 +1,35 @@
+<div class='filter'>
+<form id='filter' method='GET' action='/explore'>
+  campus: <select name='campQ'>
+    <option disabled selected value> -- select an option -- </option>
+    <option value="All">Both Campuses</option>
+    <option value="Washington Square Park">Washington Square Park Campus</option>
+    <option value="Brooklyn">Brooklyn Campus</option>
+  </select>
+  type: <select name='typeQ'>
+    <option disabled selected value> -- select an option -- </option>
+    <option value='immediate'>Take Only What You Need for Now</option>
+    <option value='future'>Take Supplies for Later</option>
+  </select>
+  location: <input type='text' name='loctQ'>
+  
+  <input type='submit' value='search'>
+</form>
+</div>
+
+<div class="location">
+<table>
+  <tr>
+    <th>Location</th>
+    <th>Type</th>
+    <th>Campus</th>
+  </tr>
+  {{#each locations}}
+  <tr>
+    <td>{{name}}</td>
+    <td>{{type}}</td>
+    <td>{{campus}}</td>
+  </tr>
+  {{/each}}
+</table>
+</div>

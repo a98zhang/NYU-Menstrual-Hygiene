@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/main.css" />
+        <title>Menstrual Hygiene @ NYU</title>
+    </head>
+
+    <body>
+        <header>
+            <nav id="top-nav">
+                <a href="/user"><img id='user' src="/img/user.png"></a>  
+            </nav>
+            <h1>Menstrual Hygiene @ NYU</h1>
+            <nav id="menu-nav">
+                <a href="/">Find</a>                |                          
+                <a href="/add">Report</a>               |                   
+                <a href="/explore">Explore</a>   
+            </nav>
+        </header>
+        <div class="block" id="data">
+            <h3> Add Menstrual Data to See A HeatMap</h3>
+            <div><label>Enter a date</label><input type="date" id="menstrualdate"></div>
+            <div><label>Slide to match your menstrual flow on that day</label><input type="range" id="menstrualflow"></div>
+            <div><input type="button" class="add" value="Add"><input type="button" class="close" value="Stop"></div>
+        </div>
+        <div id="calendar"></div>
+        <script src="./javascripts/me.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    </body>
+</html>
+
