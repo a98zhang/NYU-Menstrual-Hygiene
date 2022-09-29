@@ -22,7 +22,7 @@
   "dependencies": {
     "@vue/cli": "^4.0.5",
     "connect-flash": "^0.1.1",
-    "d3": "^5.14.2",
+    "d3": "^7.6.1",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "express-validator": "^6.3.0",
